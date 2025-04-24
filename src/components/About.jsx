@@ -12,12 +12,12 @@ function About() {
                 </div>
 
                 <p className='text-xl mt-20'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur itaque expedita et, vero ipsum pariatur sapiente, ab beatae, quod nihil maiores voluptates perferendis quos. Saepe repellat, recusandae reprehenderit magnam aut assumenda architecto nobis quasi odio ipsum obcaecati voluptate deleniti distinctio soluta corporis nisi iste dolores eum, consectetur expedita accusantium! Esse.
+                    Hello! I'm <strong>Chandru A</strong>, a Computer Science and Engineering student at Kongu Engineering College with a CGPA of 8.77. I’m passionate about technology and innovation, always eager to learn new skills and stay updated with emerging trends in the tech world.
                 </p>
                 <br />
 
                 <p className='text-xl'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae totam, quisquam voluptatibus exercitationem sint soluta, nulla hic repellat, tenetur atque molestiae magni a distinctio ipsam sit. Ea enim officiis laboriosam repellat! Maxime, numquam assumenda repellendus eius doloribus eveniet fuga quidem consectetur veritatis minima animi aut voluptate eaque quia possimus harum.
+                    I specialize in full-stack development using tools and frameworks like ReactJS, NodeJS, MongoDB, and PostgreSQL. I also have a strong interest in machine learning and SQL, and I'm certified as a MongoDB Associate Developer. With leadership roles like <strong>Joint Secretary</strong> of the CSE Association at KEC and internship experience in AI/ML, I thrive in collaborative environments that help me grow both technically and personally.
                 </p>
             </div>
 
