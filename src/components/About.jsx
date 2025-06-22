@@ -12,7 +12,7 @@ function About() {
                 </div>
 
                 <p className='text-xl mt-20'>
-                    Hello! I'm <strong>Chandru A</strong>, a Computer Science and Engineering student at Kongu Engineering College with a CGPA of 8.77. I’m passionate about technology and innovation, always eager to learn new skills and stay updated with emerging trends in the tech world.
+                    Hello! I'm <strong>Chandru A</strong>, a Computer Science and Engineering student at Kongu Engineering College with a CGPA of 8.69. I’m passionate about technology and innovation, always eager to learn new skills and stay updated with emerging trends in the tech world.
                 </p>
                 <br />
 
