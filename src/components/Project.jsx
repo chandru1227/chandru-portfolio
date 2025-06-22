@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import TurfImage from '../assets/turf.png';
-import DashboardImage from '../assets/social.png'
+import DashboardImage from '../assets/social.png';
 import EventImage from '../assets/event-proj.jpg';
+import TextileImage from '../assets/textile.png'; // Add this image to your assets folder
 
 function Project() {
   const [expanded, setExpanded] = useState(null);
@@ -14,7 +15,7 @@ function Project() {
       tech: 'ReactJS, TailwindCSS, ExpressJS, MongoDB',
       description:
         'Real-time turf booking platform with secure payments and automated slot confirmations. Reduced booking errors by 30%.',
-      codeLink: 'https://github.com/chandru1227/Turf-Booking-Application.git',
+      codeLink: 'https://ground-booking.netlify.app',
     },
     {
       id: 2,
@@ -34,6 +35,15 @@ function Project() {
         'Full-stack event management system with CRUD for attendees and event coordination, optimized for performance.',
       codeLink: 'https://github.com/Arun-Karthik-26/Event_Management_System.git',
     },
+    {
+      id: 4,
+      title: 'Textile Management System',
+      image: TextileImage,
+      tech: 'ReactJS, NodeJS, ExpressJS, MongoDB',
+      description:
+        'Internal tool for managing inventory and orders in a textile business. Developed as a full-stack solution to streamline textile operations. (Feb 2025 - Apr 2025)',
+      codeLink: 'https://kumartextiles.vercel.app',
+    },
   ];
 
   const toggleExpand = (id) => {
@@ -50,7 +60,10 @@ function Project() {
 
         <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map(({ id, title, image, tech, description, codeLink }) => (
-            <div key={id} className="bg-gray-900 rounded-xl shadow-lg overflow-hidden transition-transform duration-200 hover:scale-105">
+            <div
+              key={id}
+              className="bg-gray-900 rounded-xl shadow-lg overflow-hidden transition-transform duration-200 hover:scale-105"
+            >
               <img src={image} alt={title} className="w-full h-48 object-cover" />
               <div className="p-4">
                 <h3 className="text-2xl font-semibold mb-2">{title}</h3>
@@ -70,7 +83,7 @@ function Project() {
                       rel="noopener noreferrer"
                       className="text-blue-400 underline"
                     >
-                      View Code on GitHub
+                      View Code or Live App
                     </a>
                   </div>
                 )}
